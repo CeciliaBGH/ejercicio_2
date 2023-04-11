@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workshop Git</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>WORKSHOP GIT</h1>
+    <hr>
+
+    <h2>Ítem 1: clonando repositorio</h2>
+    <p>Vamos a comenzar clonando el repositorio de este proyecto. Para ello, ingresamos al siguiente link:</p>
+    <link rel="repositorio" href="">
+    <p>Se emplea el comando <b>git clone 'url_del_repositorio'</b></p>
+    <hr>
+
+    <h2>Ítem 2: creamos una rama y trabajamos en ella</h2>
+    <p>Creamos una rama para realizar cambios en ella, sin afectar las características del proyecto principal. Empleamos el comando <b>git chechout -b 'nombre_de_la_rama'</b>.</p>
+    <p>El flag -b indica que se creará una nueva rama y el comando chechout especifica que nos cambiaremos a la nueva rama.</p>
+    <hr>
+
+    <h2>Ítem 3: uso del archivo gitignore</h2>
+    <p>Creamos un archivo de prueba, por ejemplo: prueba.txt.</p>
+    <p>A continuación incorporamos el mismo al archivo .gitignore.</p>
+    <p>Posteriormente, subimos los cambios locales a remoto. ¿Se visualiza el archivo prueba.txt en el repositorio de GitHub?</p>
+    <hr>
+
+    <h2>Ítem 4: modificamos el código en la rama creada</h2>
+    <p>Realizar algún cambio en el código de la rama. ¿Impacta en el proyecto principal? ¿Cómo podemos hacer que impacte en el proyecto principal?</p>
+    <hr>
+
+    <h2>Ítem 5: fusionamos la rama creada a la rama main</h2>
+    <p>En primer lugar, debemos posicionarnos en la rama que quedará luego de la fusión. En nuestro caso, nos movemos a la rama main: <b>git checkout main</b></p>
+    <p>A continuación, fusionamos el contenido de la rama secundaria hacia la rama main. Usamos el comando <b>git merge rama-secundaria</b></p>
+    <p>Luego de la fusión, ¿se visualizan el el proyecto los cambios que se habían realizado en la rama secundaria?</p>
+    <hr>
+
+    <h2>Ítem 6: registro del historial</h2>
+    <p>Se ponen a prueba los comandos log, relativos al registro de historial</p>
+    <hr>
+
+    <h2>Ítem 7: volver atrás</h2>
+    <p>Ponemos a prueba los comandos reset.</p>
+    <hr>
+    
+</body>
+</html>

@@ -1,0 +1,20 @@
+body {
+    background-color:cadetblue;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+h1 {
+    font-size: 35px;
+    font-family: sans-serif;
+    text-align: center;
+}
+h2 {
+    font-size: 25x;
+    font-family: sans-serif;
+    text-align: justify;
+}
+p {
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: justify;
+}
