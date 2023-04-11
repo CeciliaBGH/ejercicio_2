@@ -13,7 +13,7 @@ h2 {
     font-family: sans-serif;
     text-align: justify;
 }
-p {
+p, a {
     font-size: 18px;
     font-family: sans-serif;
     text-align: justify;
